@@ -9,7 +9,7 @@ A full-stack web application for buying and selling second-hand items such as el
 | Field        | Details                  |
 |-------------|--------------------------|
 | **Name**     | Anmol Rehal              |
-| **Course**   | Web Technologies         |
+| **Course**   | Internet Tools           |
 | **School**   | Algoma University        |
 
 ---
