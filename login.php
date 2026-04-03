@@ -6,6 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit();
 }
 
+require_once 'includes/config.php';
 require_once 'db/conn.php';
 
 $email    = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
@@ -22,8 +23,13 @@ if ($user && password_verify($password, $user['password'])) {
     $_SESSION['user_email'] = $user['email'];
     $_SESSION['user_name']  = $user['username'];
     $_SESSION['user_id']    = $user['id'];
+    $_SESSION['is_admin']   = (bool)$user['is_admin'];
 
-    header('Location: welcome.php');
+    if ($user['is_admin']) {
+        header('Location: admin/index.php');
+    } else {
+        header('Location: index.php');
+    }
     exit();
 } else {
     header('Location: loginform.php?error=Invalid+email+or+password.');

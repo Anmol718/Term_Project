@@ -1,19 +1,25 @@
 {
-  "name": "final",
+  "name": "termproject",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anmol718/Lab9_10.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "devDependencies": {
-    "sass": "^1.98.0"
+  "bugs": {
+    "url": "https://github.com/Anmol718/Lab9_10/issues"
   },
+  "homepage": "https://github.com/Anmol718/Lab9_10#readme",
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "sass": "^1.99.0"
   }
 }

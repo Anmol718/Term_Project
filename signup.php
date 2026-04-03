@@ -58,7 +58,7 @@ if ($success) {
     $_SESSION['user_name']  = $username;
     $_SESSION['user_id']    = $conn->insert_id;
 
-    header('Location: welcome.php');
+    header('Location: index.php');
     exit();
 } else {
     header('Location: signupform.php?error=Registration+failed.+Please+try+again.');
