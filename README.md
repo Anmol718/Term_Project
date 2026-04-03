@@ -62,7 +62,7 @@ SecondHand Market is an online marketplace platform where users can register, lo
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/TermProject.git
+git clone https://github.com/Anmol718/Term_Project.git TermProject
 ```
 Place the folder inside your XAMPP `htdocs/` directory.
 
@@ -77,7 +77,7 @@ Place the folder inside your XAMPP `htdocs/` directory.
 
 **4. Visit the site**
 ```
-http://localhost/TermProject/
+http://127.0.0.1/TermProject/
 ```
 
 ---
